@@ -34,8 +34,8 @@ void failure(int sec) {
 }
 
 void flicker(int pin) {
-    digitalWrite(pin, HIGH);
-    delay(700);
-    digitalWrite(pin, LOW);
-    delay(300);
+  digitalWrite(pin, HIGH);
+  delay(700);
+  digitalWrite(pin, LOW);
+  delay(300);
 }
